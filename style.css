@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.63);
+    margin-bottom: 3rem;
+}
+
+main {
+    background-color: rgba(255, 255, 132, 0.517);
+    max-width: 1400px;
+    border-radius: 10px;
+    padding: 3rem;
+    width: 100%;
+    margin: 5rem auto;
+
+}
+
+.graficos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
